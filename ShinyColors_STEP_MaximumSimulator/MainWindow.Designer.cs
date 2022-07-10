@@ -50,17 +50,19 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // buttonExecute
             // 
+            this.buttonExecute.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(91)))), ((int)(((byte)(236)))));
             this.buttonExecute.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.buttonExecute.Location = new System.Drawing.Point(66, 513);
             this.buttonExecute.Name = "buttonExecute";
             this.buttonExecute.Size = new System.Drawing.Size(473, 127);
             this.buttonExecute.TabIndex = 6;
             this.buttonExecute.Text = "じっこう";
-            this.buttonExecute.UseVisualStyleBackColor = true;
+            this.buttonExecute.UseVisualStyleBackColor = false;
             this.buttonExecute.Click += new System.EventHandler(this.ButtonExecuteClick);
             // 
             // textStatusLimit
             // 
+            this.textStatusLimit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textStatusLimit.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textStatusLimit.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textStatusLimit.Location = new System.Drawing.Point(318, 199);
@@ -71,6 +73,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textSkillLevel
             // 
+            this.textSkillLevel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textSkillLevel.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textSkillLevel.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textSkillLevel.Location = new System.Drawing.Point(66, 297);
@@ -81,6 +84,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textSkillPoint
             // 
+            this.textSkillPoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textSkillPoint.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textSkillPoint.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textSkillPoint.Location = new System.Drawing.Point(318, 297);
@@ -91,6 +95,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textStatusCount
             // 
+            this.textStatusCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textStatusCount.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textStatusCount.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textStatusCount.Location = new System.Drawing.Point(63, 402);
@@ -101,6 +106,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textStatus
             // 
+            this.textStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textStatus.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textStatus.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textStatus.Location = new System.Drawing.Point(63, 200);
@@ -111,6 +117,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textStatusLimitCount
             // 
+            this.textStatusLimitCount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
             this.textStatusLimitCount.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textStatusLimitCount.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.textStatusLimitCount.Location = new System.Drawing.Point(318, 401);
@@ -121,6 +128,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             // textResult
             // 
+            this.textResult.BackColor = System.Drawing.Color.White;
             this.textResult.Font = new System.Drawing.Font("メイリオ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textResult.Location = new System.Drawing.Point(652, 193);
             this.textResult.Multiline = true;
@@ -224,6 +232,7 @@ namespace ShinyColors_STEP_MaximumSimulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.ClientSize = new System.Drawing.Size(1138, 818);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);

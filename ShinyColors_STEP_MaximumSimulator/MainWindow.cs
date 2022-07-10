@@ -5,6 +5,10 @@ namespace ShinyColors_STEP_MaximumSimulator
 {
     public partial class MainWindow : Form
     {
+        //-------------------------------
+        //  Variables
+        //-------------------------------
+
         private int status;
         private int statusLimit;
         private int skillLevel;
@@ -45,6 +49,8 @@ namespace ShinyColors_STEP_MaximumSimulator
             catch (Exception) {
                 // 無いと思うけど。。。
                 textResult.Text = "入力パラメータが不正です。";
+                // 終了
+                return;
 
             }
             textResult.Text = "計算中";
