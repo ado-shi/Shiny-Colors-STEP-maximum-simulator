@@ -51,7 +51,9 @@ ShinyColors_STEP_MaximumSimulator.exeを実行し、以下ステータスを各�
 
 ![image](https://user-images.githubusercontent.com/80242944/167307940-063acd27-8164-490d-9aaa-d601db909f12.png)
 　　↓
-![2022y07m12d_010432270](https://user-images.githubusercontent.com/109031310/178750877-1144cbe7-553a-4508-94ac-cab81849d84c.jpg)
+  
+![2022y07m13d_231452088](https://user-images.githubusercontent.com/109031310/178755359-2e07367e-69c0-487c-94e6-0f93ec19fde9.jpg)
+
 　　↓
 ![image](https://user-images.githubusercontent.com/80242944/167307950-5e38ceb7-4f0b-4211-b7aa-49fd75fb0377.png)
 
