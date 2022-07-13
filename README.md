@@ -12,12 +12,12 @@
 ⇒団結力を16回(団結力480を消費して)SPに変換。上限パネルを開けた後2回目のシミュレーションを行う
 
 # 使用例
+## Console版
 ![image](https://user-images.githubusercontent.com/80242944/167307940-063acd27-8164-490d-9aaa-d601db909f12.png)
 ![image](https://user-images.githubusercontent.com/80242944/167307944-f376a755-37ad-4a8e-98bb-d76c3a10fd0b.png)
 
 ![image](https://user-images.githubusercontent.com/80242944/167307953-f4d2bc69-b8ca-467e-8cc2-4cb3be385b1c.png)
 ![image](https://user-images.githubusercontent.com/80242944/167307950-5e38ceb7-4f0b-4211-b7aa-49fd75fb0377.png)
-
 
 # 既知のバグ
 ~~以下の点はバグを確認していますが、見て分かる内容 & 入力検証が面倒くさいので対応していません。~~ 修正対応を実施しました。
@@ -34,3 +34,39 @@
 ```
 Microsoft Visual Studio Community 2019
 ```
+
+------------
+# Windowsアプリ版 Shiny-Colors-STEP-maximum-simulator
+raon555さんの特化パラメータの最大値を試算するためのシミュレータを、WindowsGUIに置き換えたツールです。
+シミュレータの詳細は↑を参照ください。
+
+## アプリ版使用例
+ShinyColors_STEP_MaximumSimulator.exeを実行し、以下ステータスを各テキストボックスに入力し、「じっこう」ボタンを押下ください。
+* 現在の特化ステータス(Dance特化の場合はDanceのステータス値)
+* 現在の特化ステータス上限
+* 特化熟練度
+* 団結力
+* 現在の特化ステータス成長回数
+* 現在の上限成長回数
+
+![image](https://user-images.githubusercontent.com/80242944/167307940-063acd27-8164-490d-9aaa-d601db909f12.png)
+　　↓
+![2022y07m12d_010432270](https://user-images.githubusercontent.com/109031310/178750877-1144cbe7-553a-4508-94ac-cab81849d84c.jpg)
+　　↓
+![image](https://user-images.githubusercontent.com/80242944/167307950-5e38ceb7-4f0b-4211-b7aa-49fd75fb0377.png)
+
+## 動作環境
+* OS：Windows
+  * Windows10でのみ動作確認済 
+    * 多分過去のOSでも動くはず... 
+
+* プラットフォーム：.NET
+  * .NET 4.7.2以上でのみ動作確認済 
+    * 多分過去のVerでも動くはず .NETが一切入ってないと多分無理
+
+## アプリ版バグ
+* 数値制限はかけてませんので、各ステータスの上限は超えないようお願いします(熟練度で言えば10000以上)
+** 気が向いたら直します
+** 数値以外の入力(-含む)は制限かけてます
+* レイアウトの色合いが若干見づらくなってます
+** 酒飲みながら書いたらアルストロメリアカラーになりました
