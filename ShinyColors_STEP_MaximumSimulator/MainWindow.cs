@@ -80,15 +80,26 @@ namespace ShinyColors_STEP_MaximumSimulator
             }
         }
 
+        /// <summary>
+        /// カーソル全選択
+        /// TextBoxにカーソルがあった際に全選択状態に変更
+        /// Tabでカーソル移動すると一々数字消すのが面倒なため。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TextStatusEnter(object sender, EventArgs e)
+        {        
+            ((TextBox)sender).SelectAll(); 
+        }
 
-		//-------------------------------
-		//  Internals
-		//-------------------------------
-		
-		/// <summary>
-		/// ステータス計算
-		/// </summary>
-		private void ExecuteCalc() 
+        //-------------------------------
+        //  Internals
+        //-------------------------------
+
+        /// <summary>
+        /// ステータス計算
+        /// </summary>
+        private void ExecuteCalc() 
         {
 			int requiredStatusPoint = 0;              //ステータスの次の成長に必要な熟練度(歌唱力or安定感or表現力or集中力)
 			int requiredLimitPoint = 0;               //ステータス上限の次の成長に必要な熟練度(歌唱力or安定感or表現力or集中力)
@@ -120,7 +131,7 @@ namespace ShinyColors_STEP_MaximumSimulator
                     && ((statusLimit - status) <= 10)                 //かつ、現在の特化ステータスと上限値の差が10以下
                     && ((skillLevel - 2 * requiredStatusPoint) >= 0)  //かつ、熟練度が2回の成長で枯渇しない
                     && ((skillPoint - requiredLimitSkillPoint) >= 0)  //かつ、特化ステータス上限値の成長に必要な団結力ptを保持している
-                    && (statusLimitCount < 140))                      //かつ、特化ステータス上限の成長回数が140回(カンスト)未満の場合、実行
+                    && (statusLimitCount < 230))                      //かつ、特化ステータス上限の成長回数が230回(カンスト)未満の場合、実行
                 {
                     statusLimit = statusLimit + 10;
                     skillLevel = skillLevel - requiredLimitPoint;
@@ -209,6 +220,7 @@ namespace ShinyColors_STEP_MaximumSimulator
 			p_danketsuryoku_point = danketsuryoku_point;
 			return 0;
 		}
+
 
     }
 
